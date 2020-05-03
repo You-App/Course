@@ -1,0 +1,373 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Деньги Андроид шаг за шагом</title>
+  <link rel="icon" type="image/png" href="/moneyandroid/img/icon.png">
+
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(62079661, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/62079661" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+  <script src="webcomponents-lite.min.js"></script>
+  <link rel="import" href="https://codelabs.developers.google.com/elements/codelab.html">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <style>
+    body {
+      font-family: "Roboto",sans-serif;
+    }
+  </style>
+  
+</head>
+<body unresolved class="fullbleed">
+
+  <google-codelab title="Деньги Андроид шаг за шагом"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Начало" duration="180">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div>
+<h3 style="text-align: center;">
+Определяем тему приложения и порядок действий</h3>
+<div>
+<br /></div>
+<div style="text-align: center;">
+<h4>
+&nbsp;<span style="font-weight: normal;">Прежде всего благодарим вас за участие в группе и вклад в развитие проекта!</span></h4>
+<div>
+<span style="font-weight: normal;"><br /></span></div>
+</div>
+&nbsp;Наше с вами приложение будет чат: "Чат для фанатов Рональдо" (Рональдо - это пример ключевой темы, вам нужно определить свою ключевую тему. Варианты: Рональдо, Майнкрафт, Путин - это может быть компьютерная или мобильная игра, ютубер, популярная личность или какое либо сообщество...&nbsp;Лучшим вариантом будет то, что нравится вам и в идеале - вашим друзьям, потому что вам нужно будет заниматься этим...<br />
+<br />
+<div>
+<h4 style="text-align: center;">
+<b>Конструктор приложений:</b></h4>
+<div>
+<b><br /></b></div>
+&nbsp;Для создания неограниченного количества приложений и отслеживания вашего прогресса, используйте конструктор нашего партнёра: <a href="https://youapp.space/apps/">Youapp.space/apps</a><br />
+<div style="text-align: left;">
+<br /></div>
+<h3 style="text-align: center;">
+<span style="font-weight: normal;">Эти шаги - всего лишь верхушка айсберга, основную часть знаний, вы получите от наставника, в вопросах и ответах...</span></h3>
+<div>
+<span style="font-weight: normal;"><br /></span></div>
+<h4 style="text-align: center;">
+<b>П</b><b>орядок действий:</b></h4>
+</div>
+<div>
+<b><br /></b></div>
+1. Определить ключевую тему приложения (ключ), пример: "Minecraft" или "Путин" - это должно быть что-то популярное - используйте для проверки <a href="https://wordstat.yandex.ru/" target="_blank">Статистику ключевых слов на Яндексе</a><br />
+<br />
+2. Придумать название, пример: "Chat for Minecraft lovers" или "Чат для любителей Путина" - не более 50 символов&nbsp;(подробно на шаге №2)<br />
+<br />
+3. Подготовить иконку PNG Размер: 512 х 512 пикселей - ОЧЕНЬ ВАЖНАЯ ЧАСТЬ (подробно на шаге №3)<br />
+<br />
+4. После определения названия и создания иконки, свяжитесь с вашим наставником, для подготовки приложения, пишите с почты указанной в заказе (нужно прислать иконку, название и вашу страницу в ВКонтакте) на: moneyadroid@gmail.com<br />
+<br />
+5. Зарегистрироваться в&nbsp;AdMob (подробно на шаге №4)<br />
+<br />
+6.&nbsp;Создать рекламный блок в AdMob (подробно на шаге №5)<br />
+<br />
+7. Зарегистрироваться в&nbsp;Google Play Console (подробно на шаге №6)<br />
+<br />
+8. Создать описание: первый текст, который увидят пользователи, при просмотре подробной информации о приложении на его странице в Google Play - 80 символов (короткое описание), пользователи могут развернуть этот текст для просмотра полной версии описания. Подробное описание приложения в Google Play - 4000 символов (подробно на шаге №7)<br />
+<br />
+9. Подготовить картинку для описания: JPEG или PNG Размер: 1024 х 500 пикселей, баннер для телевизора: JPEG или PNG Размер: 1280 х 720 пикселей (по вашей теме)</div>
+<div>
+<br />
+10. Создать скриншоты для приложения: JPEG или PNG 4 снимка экрана 720 х 1280 пикселей (после подготовки приложения)</div>
+<div>
+<br /></div>
+<div>
+11. Загрузить приложение в Google Play (подробно на шаге №10)</div>
+<div>
+<br /></div>
+<div>
+12. Создать начальную активность в чате и получать пассивный доход (подробно на шаге №11)...</div>
+</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Название" duration="120">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+<b>Название, как ключ успешного продвижения</b></h3>
+<div>
+<br /></div>
+&nbsp;Этот является чуть ли не самым важным в продвижении в Google Play. Очень важно правильно подобрать ключевое слово, т.к. оно имеет наибольший вес при индексировании вашего приложения. В названии должно присутствовать основное ключевое слово. Основное ключевое слово — это то слово, которым можно охарактеризовать ваше приложение, и при этом его часто должны вводить в поиске. Название может содержать несколько ключевых слов, но это не всегда хорошо.<br />
+<br />
+<img src="img/screen_true_names.png" /><br />
+<br />
+Название приложение ограничено 50 символами и если вам не хватает символов, то название можно вынести в иконку.<br />
+<br />
+&nbsp;Чужие товарные знаки и бренды использовать запрещено. Но в большинстве случаев после предлогов — «для, в, из» можно использовать названия популярных приложений. Использование известных брендов помогает в раскрутке, но это нужно делать аккуратно, чтобы не получить блокировку приложения.<br />
+<br />
+<img src="img/screen_true_names_2.png" /></div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Иконка" duration="120">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h4 style="text-align: center;">
+<b>Иконка ОЧЕНЬ ВАЖНАЯ ЧАСТЬ приложения, от неё будет зависеть - будут ли пользователи кликать по ней, определяя - будет ли Google Play показывать его или нет!!!</b></h4>
+<div>
+<b><br /></b></div>
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/pbKqnSSun-8/0.jpg" frameborder="0" height="360" src="https://www.youtube.com/embed/pbKqnSSun-8?feature=player_embedded&amp;rel=0" width="100%"></iframe></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+- иконка не должна быть фотографией<br />
+- должна отличается от ваших конкурентов<br />
+- должна заинтересовать пользователей в вашей теме<br />
+<br />
+&nbsp;Мнение, что иконка должна отражать суть приложения ошибочно. Главное это выделяться своей иконкой на фоне других и создавать впечатление интересного и удивительного приложения...<br />
+<br />
+<div style="text-align: center;">
+<div style="text-align: left;">
+<b>На кого вы обратите внимание в стае ворон - на ту, которая будет белой. Станьте белой вороной, среди прочих...</b></div>
+</div>
+<br />
+<img src="img/screen_icon.png" style="max-width: 100%; vertical-align: bottom; width: 752px;" /></div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="AdMob" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/fkCjXQ1Pi9Q/0.jpg" frameborder="0" height="360" src="https://www.youtube.com/embed/fkCjXQ1Pi9Q?feature=player_embedded&rel=0" width="100%"></iframe></div>
+<br />
+&nbsp;<b>Дополнение:</b> регистрируйтесь на новую почту (вдруг будете продавать аккаунт) и указывайте (очень важно) настоящие имя и фамилию, так как указано в паспорте - это нужно для верификации аккаунта.</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Рекламный блок" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/5wp3uLqGwf8/0.jpg" frameborder="0" height="360" src="https://www.youtube.com/embed/5wp3uLqGwf8?feature=player_embedded&amp;rel=0" width="100%"></iframe></div>
+<br />
+&nbsp;<b>Дополнение:</b> вам нужно сделать не межстраничное объявление, а баннер.</div>
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Google Play Console" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/aPoF39gEuj0/0.jpg" frameborder="0" height="360" src="https://www.youtube.com/embed/aPoF39gEuj0?feature=player_embedded&rel=0" width="100%"></iframe></div>
+<br />
+&nbsp;<b>Дополнение:</b> регистрируйтесь на ту же почту, что и AdMob, указывайте (очень важно) настоящие имя и фамилию, так как указано в паспорте - это нужно для верификации аккаунта.</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Описание" duration="120">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+Описание, влияет на раскрутку в Google Play</h3>
+<br />
+&nbsp;С кратким описанием все просто. В нем нужно указать основные фичи вашего приложения. А вот с основным описанием придется попотеть.<br />
+<br />
+&nbsp;В Google Play в отличие от Appstore нет ТЭГов. Поэтому ключевики нужно вставлять в само описание и желательно это делать незаметно для читателя. Чтобы подняться в поиске выше, основное ключевое слово должно повторяться в описании не менее 7 раз. Его можно использовать в разных вариациях.<br />
+<br />
+<img src="img/screen_description.png" /><br />
+<br />
+&nbsp;Так же нужно добавить дополнительные ключевые слова по которым пользователи могут искать приложение.<br />
+<br />
+<img src="img/screen_description_2.png" /><br />
+<br />
+&nbsp;Очень важно не переборщить с ключевыми словами, чтобы избежать блокировки. Очень часто блокируют приложения, когда в описании встречаются перечисления вроде такого -«В нашем приложении есть анекдоты: про Вовочку, про Штирлица, Про Василия Иваныча, про Чебурашку и т.д.»<br />
+<br />
+&nbsp;Популярные ключевые слова узнать очень просто. Для этого достаточно начать вводить слова в поиске, с которыми ассоциируется ваше приложение. И Google Play начнет предлагать самые популярные варианты.<br />
+<br />
+<img src="img/screen_suggestions-1.png" /></div>
+
+	      
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Скриншоты" duration="120">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+<b>Современные скриншоты</b></h3>
+<div>
+<br />
+&nbsp;К скриншотам приложения нужно подойти с особым вниманием. Нужно понимать, что большинство пользователей не будут внимательно читать ваше описание. А решать скачивать ваше приложение или нет, будут исходя из скриншотов. Поэтому важно выставить максимально информативные экраны, посмотрев на которые, будет ясно какую задачу решает ваше приложение.</div>
+<div>
+<br />
+<img src="img/screen_screens.png" /></div>
+</div>
+
+
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Имя разработчика" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+Имя разработчика в Google Play, как ключевое слово&nbsp;</h3>
+<div>
+<br />
+&nbsp;Мало кто знает, но достаточно высоким весом обладает пункт «Имя разработчика». Оно отображается прямо под названием приложения, поэтому это дополнительная возможность убедить пользователя, что это то что ему нужно. В нем вы можете лишний раз указать основное ключевое слово или добавить новое.<br />
+<br />
+Пример: Apps for Minecraft lovers</div>
+<div>
+<br />
+<img src="img/screen_account_name.png" /></div>
+</div>
+
+
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Загрузка приложения" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div class="separator" style="clear: both; text-align: center;">
+<iframe allowfullscreen="" class="YOUTUBE-iframe-video" data-thumbnail-src="https://i.ytimg.com/vi/1YDNgz-v_AU/0.jpg" frameborder="0" height="360" src="https://www.youtube.com/embed/1YDNgz-v_AU?feature=player_embedded&rel=0" width="100%"></iframe></div>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Начальная активность" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+Создать начальную активность в приложении</h3>
+<div>
+<br />
+&nbsp;На этом шаге, вам нужно отправлять сообщения в чат (текстовые, картинки, видео), для создания активности чата и вовлечения аудитории...<br />
+<br />
+&nbsp;Отправляйте сообщения по вашей теме - это может быть компьютерная или мобильная игра, ютубер или популярная личность - лучшим вариантом будет то, что нравится вам и в идеале - вашим друзьям, потому что вам нужно будет заниматься этим...<br />
+<br />
+&nbsp;Самый простой вариант - это найти группы (ВКонтакте, Одноклассники), по вашей теме и дублировать, указывая адрес поста ссылкой (чтоб не нарушать авторские права).<br />
+<br />
+&nbsp;Ничего сложного, ничего оформлять не нужно, обычный чат, как ВК, Вайбер, Ватсап и многие другие, просто общайтесь с пользователями - как пользователь...</div>
+<div>
+<br />
+- Станьте интересным информационным полем, в вашей теме...</div>
+</div>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Заработок" duration="60">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+Способы получения прибыли</h3>
+<div>
+<br />
+<b>1. Заработок на приложениях:</b><br />
+<br /></div>
+<div>
+1.1 Вы делаете всё сами по инструкции (если что-то непонятно, пишите - мы поможем вам бесплатно) - распределение доходов 50% на 50%.<br />
+1.2 Если у вас нет времени на какие либо действия по инструкции, вы можете заказать эти материалы - мы сделаем их у профессионалов, примерная стоимость услуг (может меняться со временем): иконка, описание, определение темы - по 1 тыс. руб.; название, загрузка приложения 500 руб.; полностью все действия - 4 тыс. руб.&nbsp;- распределение доходов 50% на 50%.<br />
+1.3 Если у вас нет времени на какие либо действия по инструкции, мы сделаем всё бесплатно (предложение ограничено, напишите нам - мы сообщим, о наличии готового приложения), в этом случае - распределение доходов 20% на 80% (вы можете ежемесячно зарабатывать, как 1000 руб., так и 100 тыс. руб. - ни чего не делая)...</div>
+<div>
+<div>
+<br />
+<b>2. Аренда аккаунта разработчика:</b><br />
+<b><br /></b></div>
+<div>
+2.1 Арендуют аккаунты люди - которым Google закрыл этот аккаунт (за какие либо нарушения), но они уже поняли, что можно хорошо зарабатывать в Google Play...&nbsp;Как это происходит: обычно платят за время жизни приложения, то есть - приложение должно пройти модерацию и каждую неделю вам будут платить до 5 тыс. руб., пока его не удалят... Ещё есть предложения, когда вам платят сразу, но один раз (по последним данным это &nbsp;2200 руб.). При этом ваш аккаунт могут удалить и вы больше не сможете зарабатывать в Google Play (только если арендовать или покупать)...<br />
+2.2 Мы предлагаем вам самим попробовать зарабатывать - а продажа или аренда, будет гарантией того, что в любом случае - вы окупите свои вложения...<br />
+<br /></div>
+</div>
+<div>
+<b>3. Рекомендация данного курса:</b><br />
+<b><br /></b></div>
+<div>
+3.1 Если видите перспективность курса, вы можете рекомендовать его знакомым, друзьям, знакомым знакомых и так далее...</div>
+<div>
+3.2 Вы будете зарабатывать - до 65% от стоимости (зависит от количества продаж).</div>
+<div>
+<br /></div>
+<div>
+<b>4. Конструктор приложений:</b><br />
+<b><br /></b></div>
+<div>
+4.1 Вы делаете всё сами по инструкции (если что-то непонятно, пишите - мы поможем вам бесплатно) - распределение доходов 60% Вам:&nbsp;<a href="https://youapp.space/apps/">Youapp.space/apps</a></div>
+</div>
+
+
+
+      </google-codelab-step>
+	  
+	  
+    
+      <google-codelab-step label="Вопросы и комментарии" duration="0">
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<h3 style="text-align: center;">
+Обязательно читайте - этот раздел</h3>
+<br />
+<div style="text-align: center;">
+Возможно, это самая познавательная часть курса, здесь вы можете получите ответы - на самые разные ваши вопросы...</div>
+<br />
+&nbsp;Инструкция будет пополнятся и улучшаться, заглядывайте, делитесь успехами и наблюдениями...<br />
+<br />
+&nbsp;Если есть вопросы или предложения, пишите в комментариях или на почту (обычно мы отвечаем быстро, но в некоторых случаях, это может занять до 48 часов, исключая выходные и праздничные дни): moneyadroid@gmail.com<br />
+<div>
+<span style="font-size: large;"></span><br />
+<br />
+<div id="wpac-comment">
+</div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Comment', id: 24017});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+</div>
+</div>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+	
+<script type="text/javascript">
+    document.ondragstart = noselect;
+    // запрет на перетаскивание
+    document.onselectstart = noselect;
+    // запрет на выделение элементов страницы
+    document.oncontextmenu = noselect;
+    // запрет на выведение контекстного меню
+    function noselect() {return false;}
+</script>
+
+
+</body>
+
+</html>
